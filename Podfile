@@ -1,6 +1,6 @@
 platform :ios, '8.0'
 
-target 'ClientC' do
+target 'GrowAlong' do
 
 	pod 'Masonry', '~> 1.1.0'
 	pod 'YTKNetwork', '~> 2.0.4'

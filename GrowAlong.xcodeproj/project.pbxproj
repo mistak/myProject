@@ -36,7 +36,7 @@
 		2DFCDE8521228BED00AE9610 /* MLoopItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFCDE8421228BED00AE9610 /* MLoopItem.m */; };
 		2DFCDE88212AFE9C00AE9610 /* MMineHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFCDE87212AFE9C00AE9610 /* MMineHeaderView.m */; };
 		2DFCDE8B212B087E00AE9610 /* MBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFCDE8A212B087E00AE9610 /* MBaseTableViewCell.m */; };
-		BF830D3897B9A927FB4F7739 /* libPods-ClientC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 48A34A6A120BD22F2B4B5B86 /* libPods-ClientC.a */; };
+		BF830D3897B9A927FB4F7739 /* libPods-GrowAlong.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 48A34A6A120BD22F2B4B5B86 /* libPods-GrowAlong.a */; };
 		D81A0A842119A24F00D602F0 /* MViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D81A0A832119A24F00D602F0 /* MViewController.m */; };
 		D81A0A872119A25E00D602F0 /* MHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D81A0A862119A25E00D602F0 /* MHomeViewController.m */; };
 		D81A0A9C2119A2CA00D602F0 /* MCourseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D81A0A9B2119A2CA00D602F0 /* MCourseViewController.m */; };
@@ -45,8 +45,8 @@
 		D81A3EAC2118330C004C495B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D81A3EAB2118330C004C495B /* AppDelegate.m */; };
 		D81A3EB42118330D004C495B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D81A3EB32118330D004C495B /* Assets.xcassets */; };
 		D81A3EBA2118330D004C495B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D81A3EB92118330D004C495B /* main.m */; };
-		D81A3EC42118330D004C495B /* ClientCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D81A3EC32118330D004C495B /* ClientCTests.m */; };
-		D81A3ECF2118330D004C495B /* ClientCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D81A3ECE2118330D004C495B /* ClientCUITests.m */; };
+		D81A3EC42118330D004C495B /* GrowAlongTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D81A3EC32118330D004C495B /* GrowAlongTests.m */; };
+		D81A3ECF2118330D004C495B /* GrowAlongUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D81A3ECE2118330D004C495B /* GrowAlongUITests.m */; };
 		D8E6EAB021193A14001B7919 /* StringTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E6EAAF21193A14001B7919 /* StringTool.m */; };
 		D8E6EAB321193A1D001B7919 /* ImageTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E6EAB221193A1D001B7919 /* ImageTool.m */; };
 		D8E6EABB21193FD2001B7919 /* FontTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E6EABA21193FD2001B7919 /* FontTool.m */; };
@@ -64,14 +64,14 @@
 			containerPortal = D81A3E9F2118330C004C495B /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = D81A3EA62118330C004C495B;
-			remoteInfo = ClientC;
+			remoteInfo = GrowAlong;
 		};
 		D81A3ECB2118330D004C495B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D81A3E9F2118330C004C495B /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = D81A3EA62118330C004C495B;
-			remoteInfo = ClientC;
+			remoteInfo = GrowAlong;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -134,8 +134,8 @@
 		2DFCDE87212AFE9C00AE9610 /* MMineHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMineHeaderView.m; sourceTree = "<group>"; };
 		2DFCDE89212B087E00AE9610 /* MBaseTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBaseTableViewCell.h; sourceTree = "<group>"; };
 		2DFCDE8A212B087E00AE9610 /* MBaseTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBaseTableViewCell.m; sourceTree = "<group>"; };
-		48A34A6A120BD22F2B4B5B86 /* libPods-ClientC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ClientC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6C05A82E981B775813E4774F /* Pods-ClientC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClientC.release.xcconfig"; path = "Pods/Target Support Files/Pods-ClientC/Pods-ClientC.release.xcconfig"; sourceTree = "<group>"; };
+		48A34A6A120BD22F2B4B5B86 /* libPods-GrowAlong.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GrowAlong.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C05A82E981B775813E4774F /* Pods-GrowAlong.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrowAlong.release.xcconfig"; path = "Pods/Target Support Files/Pods-GrowAlong/Pods-GrowAlong.release.xcconfig"; sourceTree = "<group>"; };
 		D81A0A822119A24F00D602F0 /* MViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MViewController.h; sourceTree = "<group>"; };
 		D81A0A832119A24F00D602F0 /* MViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MViewController.m; sourceTree = "<group>"; };
 		D81A0A852119A25E00D602F0 /* MHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MHomeViewController.h; sourceTree = "<group>"; };
@@ -146,17 +146,17 @@
 		D81A0A9E2119A2DA00D602F0 /* MCommunicateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCommunicateViewController.m; sourceTree = "<group>"; };
 		D81A0AA02119A31800D602F0 /* MMineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMineViewController.h; sourceTree = "<group>"; };
 		D81A0AA12119A31800D602F0 /* MMineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMineViewController.m; sourceTree = "<group>"; };
-		D81A3EA72118330C004C495B /* ClientC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClientC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D81A3EA72118330C004C495B /* GrowAlong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrowAlong.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D81A3EAA2118330C004C495B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D81A3EAB2118330C004C495B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D81A3EB32118330D004C495B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D81A3EB82118330D004C495B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D81A3EB92118330D004C495B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D81A3EBF2118330D004C495B /* ClientCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClientCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D81A3EC32118330D004C495B /* ClientCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClientCTests.m; sourceTree = "<group>"; };
+		D81A3EBF2118330D004C495B /* GrowAlongTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrowAlongTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D81A3EC32118330D004C495B /* GrowAlongTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GrowAlongTests.m; sourceTree = "<group>"; };
 		D81A3EC52118330D004C495B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D81A3ECA2118330D004C495B /* ClientCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClientCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D81A3ECE2118330D004C495B /* ClientCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClientCUITests.m; sourceTree = "<group>"; };
+		D81A3ECA2118330D004C495B /* GrowAlongUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrowAlongUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D81A3ECE2118330D004C495B /* GrowAlongUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GrowAlongUITests.m; sourceTree = "<group>"; };
 		D81A3ED02118330D004C495B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D8E6EAAD21193670001B7919 /* Client.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Client.pch; sourceTree = "<group>"; };
 		D8E6EAAE21193A14001B7919 /* StringTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StringTool.h; sourceTree = "<group>"; };
@@ -177,7 +177,7 @@
 		D8E6EACD21197BA8001B7919 /* MNavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MNavigationViewController.h; sourceTree = "<group>"; };
 		D8E6EACE21197BA8001B7919 /* MNavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MNavigationViewController.m; sourceTree = "<group>"; };
 		D8E6EAD021197DD4001B7919 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		DFE6ECFC426D6A0C51F7201F /* Pods-ClientC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClientC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ClientC/Pods-ClientC.debug.xcconfig"; sourceTree = "<group>"; };
+		DFE6ECFC426D6A0C51F7201F /* Pods-GrowAlong.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrowAlong.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GrowAlong/Pods-GrowAlong.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,7 +185,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF830D3897B9A927FB4F7739 /* libPods-ClientC.a in Frameworks */,
+				BF830D3897B9A927FB4F7739 /* libPods-GrowAlong.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,7 +324,7 @@
 		9A9E962ABD4015B87C21717F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				48A34A6A120BD22F2B4B5B86 /* libPods-ClientC.a */,
+				48A34A6A120BD22F2B4B5B86 /* libPods-GrowAlong.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -447,9 +447,9 @@
 		D81A3E9E2118330C004C495B = {
 			isa = PBXGroup;
 			children = (
-				D81A3EA92118330C004C495B /* ClientC */,
-				D81A3EC22118330D004C495B /* ClientCTests */,
-				D81A3ECD2118330D004C495B /* ClientCUITests */,
+				D81A3EA92118330C004C495B /* GrowAlong */,
+				D81A3EC22118330D004C495B /* GrowAlongTests */,
+				D81A3ECD2118330D004C495B /* GrowAlongUITests */,
 				D81A3EA82118330C004C495B /* Products */,
 				F23351103DFEE6C359D23DD0 /* Pods */,
 				9A9E962ABD4015B87C21717F /* Frameworks */,
@@ -459,14 +459,14 @@
 		D81A3EA82118330C004C495B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D81A3EA72118330C004C495B /* ClientC.app */,
-				D81A3EBF2118330D004C495B /* ClientCTests.xctest */,
-				D81A3ECA2118330D004C495B /* ClientCUITests.xctest */,
+				D81A3EA72118330C004C495B /* GrowAlong.app */,
+				D81A3EBF2118330D004C495B /* GrowAlongTests.xctest */,
+				D81A3ECA2118330D004C495B /* GrowAlongUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D81A3EA92118330C004C495B /* ClientC */ = {
+		D81A3EA92118330C004C495B /* GrowAlong */ = {
 			isa = PBXGroup;
 			children = (
 				D8E6EAA321192E48001B7919 /* Home */,
@@ -479,25 +479,25 @@
 				D81A3F1421185D31004C495B /* Other */,
 				D8E6EAA021192E18001B7919 /* Resource */,
 			);
-			path = ClientC;
+			path = GrowAlong;
 			sourceTree = "<group>";
 		};
-		D81A3EC22118330D004C495B /* ClientCTests */ = {
+		D81A3EC22118330D004C495B /* GrowAlongTests */ = {
 			isa = PBXGroup;
 			children = (
-				D81A3EC32118330D004C495B /* ClientCTests.m */,
+				D81A3EC32118330D004C495B /* GrowAlongTests.m */,
 				D81A3EC52118330D004C495B /* Info.plist */,
 			);
-			path = ClientCTests;
+			path = GrowAlongTests;
 			sourceTree = "<group>";
 		};
-		D81A3ECD2118330D004C495B /* ClientCUITests */ = {
+		D81A3ECD2118330D004C495B /* GrowAlongUITests */ = {
 			isa = PBXGroup;
 			children = (
-				D81A3ECE2118330D004C495B /* ClientCUITests.m */,
+				D81A3ECE2118330D004C495B /* GrowAlongUITests.m */,
 				D81A3ED02118330D004C495B /* Info.plist */,
 			);
-			path = ClientCUITests;
+			path = GrowAlongUITests;
 			sourceTree = "<group>";
 		};
 		D81A3F1421185D31004C495B /* Other */ = {
@@ -700,8 +700,8 @@
 		F23351103DFEE6C359D23DD0 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DFE6ECFC426D6A0C51F7201F /* Pods-ClientC.debug.xcconfig */,
-				6C05A82E981B775813E4774F /* Pods-ClientC.release.xcconfig */,
+				DFE6ECFC426D6A0C51F7201F /* Pods-GrowAlong.debug.xcconfig */,
+				6C05A82E981B775813E4774F /* Pods-GrowAlong.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -709,9 +709,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D81A3EA62118330C004C495B /* ClientC */ = {
+		D81A3EA62118330C004C495B /* GrowAlong */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D81A3ED32118330D004C495B /* Build configuration list for PBXNativeTarget "ClientC" */;
+			buildConfigurationList = D81A3ED32118330D004C495B /* Build configuration list for PBXNativeTarget "GrowAlong" */;
 			buildPhases = (
 				5F63272D5BEB42D2C6F61767 /* [CP] Check Pods Manifest.lock */,
 				D81A3EA32118330C004C495B /* Sources */,
@@ -723,14 +723,14 @@
 			);
 			dependencies = (
 			);
-			name = ClientC;
-			productName = ClientC;
-			productReference = D81A3EA72118330C004C495B /* ClientC.app */;
+			name = GrowAlong;
+			productName = GrowAlong;
+			productReference = D81A3EA72118330C004C495B /* GrowAlong.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D81A3EBE2118330D004C495B /* ClientCTests */ = {
+		D81A3EBE2118330D004C495B /* GrowAlongTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D81A3ED62118330D004C495B /* Build configuration list for PBXNativeTarget "ClientCTests" */;
+			buildConfigurationList = D81A3ED62118330D004C495B /* Build configuration list for PBXNativeTarget "GrowAlongTests" */;
 			buildPhases = (
 				D81A3EBB2118330D004C495B /* Sources */,
 				D81A3EBC2118330D004C495B /* Frameworks */,
@@ -741,14 +741,14 @@
 			dependencies = (
 				D81A3EC12118330D004C495B /* PBXTargetDependency */,
 			);
-			name = ClientCTests;
-			productName = ClientCTests;
-			productReference = D81A3EBF2118330D004C495B /* ClientCTests.xctest */;
+			name = GrowAlongTests;
+			productName = GrowAlongTests;
+			productReference = D81A3EBF2118330D004C495B /* GrowAlongTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		D81A3EC92118330D004C495B /* ClientCUITests */ = {
+		D81A3EC92118330D004C495B /* GrowAlongUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D81A3ED92118330D004C495B /* Build configuration list for PBXNativeTarget "ClientCUITests" */;
+			buildConfigurationList = D81A3ED92118330D004C495B /* Build configuration list for PBXNativeTarget "GrowAlongUITests" */;
 			buildPhases = (
 				D81A3EC62118330D004C495B /* Sources */,
 				D81A3EC72118330D004C495B /* Frameworks */,
@@ -759,9 +759,9 @@
 			dependencies = (
 				D81A3ECC2118330D004C495B /* PBXTargetDependency */,
 			);
-			name = ClientCUITests;
-			productName = ClientCUITests;
-			productReference = D81A3ECA2118330D004C495B /* ClientCUITests.xctest */;
+			name = GrowAlongUITests;
+			productName = GrowAlongUITests;
+			productReference = D81A3ECA2118330D004C495B /* GrowAlongUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -786,7 +786,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D81A3EA22118330C004C495B /* Build configuration list for PBXProject "ClientC" */;
+			buildConfigurationList = D81A3EA22118330C004C495B /* Build configuration list for PBXProject "GrowAlong" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -799,9 +799,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D81A3EA62118330C004C495B /* ClientC */,
-				D81A3EBE2118330D004C495B /* ClientCTests */,
-				D81A3EC92118330D004C495B /* ClientCUITests */,
+				D81A3EA62118330C004C495B /* GrowAlong */,
+				D81A3EBE2118330D004C495B /* GrowAlongTests */,
+				D81A3EC92118330D004C495B /* GrowAlongUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -844,7 +844,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ClientC-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-GrowAlong-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -857,7 +857,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-ClientC/Pods-ClientC-resources.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-GrowAlong/Pods-GrowAlong-resources.sh",
 				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
 				"${PODS_ROOT}/QMUIKit/QMUIKit/QMUIResources/QMUIResources.bundle",
 				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
@@ -870,7 +870,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ClientC/Pods-ClientC-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GrowAlong/Pods-GrowAlong-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -931,7 +931,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D81A3EC42118330D004C495B /* ClientCTests.m in Sources */,
+				D81A3EC42118330D004C495B /* GrowAlongTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -939,7 +939,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D81A3ECF2118330D004C495B /* ClientCUITests.m in Sources */,
+				D81A3ECF2118330D004C495B /* GrowAlongUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -948,12 +948,12 @@
 /* Begin PBXTargetDependency section */
 		D81A3EC12118330D004C495B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D81A3EA62118330C004C495B /* ClientC */;
+			target = D81A3EA62118330C004C495B /* GrowAlong */;
 			targetProxy = D81A3EC02118330D004C495B /* PBXContainerItemProxy */;
 		};
 		D81A3ECC2118330D004C495B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D81A3EA62118330C004C495B /* ClientC */;
+			target = D81A3EA62118330C004C495B /* GrowAlong */;
 			targetProxy = D81A3ECB2118330D004C495B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -1071,21 +1071,21 @@
 		};
 		D81A3ED42118330D004C495B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DFE6ECFC426D6A0C51F7201F /* Pods-ClientC.debug.xcconfig */;
+			baseConfigurationReference = DFE6ECFC426D6A0C51F7201F /* Pods-GrowAlong.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T3X7LC3EMU;
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = $SRCROOT/ClientC/Other/Client.pch;
-				INFOPLIST_FILE = "$(SRCROOT)/ClientC/Other/Info.plist";
+				GCC_PREFIX_HEADER = $SRCROOT/GrowAlong/Other/Client.pch;
+				INFOPLIST_FILE = "$(SRCROOT)/GrowAlong/Other/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = no.ClientC;
+				PRODUCT_BUNDLE_IDENTIFIER = no.GrowAlong;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1093,21 +1093,21 @@
 		};
 		D81A3ED52118330D004C495B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6C05A82E981B775813E4774F /* Pods-ClientC.release.xcconfig */;
+			baseConfigurationReference = 6C05A82E981B775813E4774F /* Pods-GrowAlong.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T3X7LC3EMU;
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = $SRCROOT/ClientC/Other/Client.pch;
-				INFOPLIST_FILE = "$(SRCROOT)/ClientC/Other/Info.plist";
+				GCC_PREFIX_HEADER = $SRCROOT/GrowAlong/Other/Client.pch;
+				INFOPLIST_FILE = "$(SRCROOT)/GrowAlong/Other/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = no.ClientC;
+				PRODUCT_BUNDLE_IDENTIFIER = no.GrowAlong;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1119,16 +1119,16 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T3X7LC3EMU;
-				INFOPLIST_FILE = ClientCTests/Info.plist;
+				INFOPLIST_FILE = GrowAlongTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = no.ClientCTests;
+				PRODUCT_BUNDLE_IDENTIFIER = no.GrowAlongTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClientC.app/ClientC";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GrowAlong.app/GrowAlong";
 			};
 			name = Debug;
 		};
@@ -1138,16 +1138,16 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T3X7LC3EMU;
-				INFOPLIST_FILE = ClientCTests/Info.plist;
+				INFOPLIST_FILE = GrowAlongTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = no.ClientCTests;
+				PRODUCT_BUNDLE_IDENTIFIER = no.GrowAlongTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClientC.app/ClientC";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GrowAlong.app/GrowAlong";
 			};
 			name = Release;
 		};
@@ -1156,16 +1156,16 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T3X7LC3EMU;
-				INFOPLIST_FILE = ClientCUITests/Info.plist;
+				INFOPLIST_FILE = GrowAlongUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = no.ClientCUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = no.GrowAlongUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ClientC;
+				TEST_TARGET_NAME = GrowAlong;
 			};
 			name = Debug;
 		};
@@ -1174,23 +1174,23 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T3X7LC3EMU;
-				INFOPLIST_FILE = ClientCUITests/Info.plist;
+				INFOPLIST_FILE = GrowAlongUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = no.ClientCUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = no.GrowAlongUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ClientC;
+				TEST_TARGET_NAME = GrowAlong;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D81A3EA22118330C004C495B /* Build configuration list for PBXProject "ClientC" */ = {
+		D81A3EA22118330C004C495B /* Build configuration list for PBXProject "GrowAlong" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D81A3ED12118330D004C495B /* Debug */,
@@ -1199,7 +1199,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D81A3ED32118330D004C495B /* Build configuration list for PBXNativeTarget "ClientC" */ = {
+		D81A3ED32118330D004C495B /* Build configuration list for PBXNativeTarget "GrowAlong" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D81A3ED42118330D004C495B /* Debug */,
@@ -1208,7 +1208,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D81A3ED62118330D004C495B /* Build configuration list for PBXNativeTarget "ClientCTests" */ = {
+		D81A3ED62118330D004C495B /* Build configuration list for PBXNativeTarget "GrowAlongTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D81A3ED72118330D004C495B /* Debug */,
@@ -1217,7 +1217,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D81A3ED92118330D004C495B /* Build configuration list for PBXNativeTarget "ClientCUITests" */ = {
+		D81A3ED92118330D004C495B /* Build configuration list for PBXNativeTarget "GrowAlongUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D81A3EDA2118330D004C495B /* Debug */,

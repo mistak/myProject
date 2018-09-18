@@ -47,7 +47,7 @@
 - (instancetype)init {
     self = [super init];
     if (self) {
-        _baseUrl = @"";
+        _baseUrl = @"http://39.105.72.62/";
         _cdnUrl = @"";
         _urlFilters = [NSMutableArray array];
         _cacheDirPathFilters = [NSMutableArray array];

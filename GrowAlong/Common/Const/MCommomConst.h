@@ -11,6 +11,8 @@
 #ifndef MCommomConst_h
 #define MCommomConst_h
 
+FOUNDATION_EXPORT NSString *const kGlobalAppVersion;
+
 extern NSString *const MCommon_back;
 
 #endif

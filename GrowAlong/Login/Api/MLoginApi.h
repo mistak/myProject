@@ -1,13 +1,14 @@
 //
-//  MBaseRequest.m
+//  MLoginApi.h
 //  GrowAlong
 //
-//  Created by Crazy on 2018/8/22.
+//  Created by 李佳群 on 2018/9/17.
 //  Copyright © 2018年 no. All rights reserved.
 //
 
 #import "MBaseRequest.h"
 
-@implementation MBaseRequest
+@interface MLoginApi : MBaseRequest
+
 
 @end

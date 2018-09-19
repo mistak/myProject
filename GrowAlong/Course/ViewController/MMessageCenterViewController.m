@@ -1,24 +1,22 @@
 //
-//  MHomeViewController.m
+//  MMessageCenterViewController.m
 //  GrowAlong
 //
-//  Created by mistak on 2018/8/7.
+//  Created by 李佳群 on 2018/9/17.
 //  Copyright © 2018年 no. All rights reserved.
 //
 
-#import "MHomeViewController.h"
+#import "MMessageCenterViewController.h"
 
-@interface MHomeViewController ()
+@interface MMessageCenterViewController ()
 
 @end
 
-@implementation MHomeViewController
+@implementation MMessageCenterViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
-    
 }
 
 - (void)didReceiveMemoryWarning {

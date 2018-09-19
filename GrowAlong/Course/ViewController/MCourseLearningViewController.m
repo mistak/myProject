@@ -1,24 +1,22 @@
 //
-//  MHomeViewController.m
+//  MCourseLearningViewController.m
 //  GrowAlong
 //
-//  Created by mistak on 2018/8/7.
+//  Created by 李佳群 on 2018/9/17.
 //  Copyright © 2018年 no. All rights reserved.
 //
 
-#import "MHomeViewController.h"
+#import "MCourseLearningViewController.h"
 
-@interface MHomeViewController ()
+@interface MCourseLearningViewController ()
 
 @end
 
-@implementation MHomeViewController
+@implementation MCourseLearningViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
-    
 }
 
 - (void)didReceiveMemoryWarning {

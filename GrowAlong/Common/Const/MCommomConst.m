@@ -8,4 +8,6 @@
 
 #import "MCommomConst.h"
 
+NSString* const kGlobalAppVersion = @"1";
+
 NSString *const MCommon_back = @"返回";

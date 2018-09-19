@@ -6,8 +6,8 @@
 //  Copyright © 2018年 no. All rights reserved.
 //
 
-#import "MViewController.h"
+#import "WMPageController.h"
 
-@interface MCourseViewController : MViewController
+@interface MCourseViewController : WMPageController
 
 @end

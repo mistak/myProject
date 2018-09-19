@@ -1163,6 +1163,10 @@
 			isa = PBXGroup;
 			children = (
 				407DCFE92150F06600C5CFAB /* Message */,
+<<<<<<< HEAD
+=======
+				2D55DEBC212D06B00059523F /* Network */,
+>>>>>>> bc511570a27e9fac6ab91c4a643347415a7d2be1
 				2DFCDE7F2122871400AE9610 /* Timer */,
 				2DFCDE71211EE85E00AE9610 /* Const */,
 				2DFCDE5D211ED01600AE9610 /* WMPageController */,
@@ -1601,7 +1605,10 @@
 				407DCFE52150E67B00C5CFAB /* MCommunicateConst.m in Sources */,
 				2DFCDE88212AFE9C00AE9610 /* MMineHeaderView.m in Sources */,
 				2DFCDE6B211ED01600AE9610 /* WMPageController.m in Sources */,
+<<<<<<< HEAD
 				0AF9C7EA2150F37400480951 /* MParameterGenerater.m in Sources */,
+=======
+>>>>>>> bc511570a27e9fac6ab91c4a643347415a7d2be1
 				407DCFE82150E71000C5CFAB /* UIView+redDot.m in Sources */,
 				2DFCDE6C211ED01600AE9610 /* UIViewController+WMPageController.m in Sources */,
 				2D4CFC3F211BD76D00ED8CB8 /* MViewGenerater.m in Sources */,

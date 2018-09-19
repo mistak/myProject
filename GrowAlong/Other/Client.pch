@@ -23,6 +23,8 @@
 #import "ColorTool.h"
 #import "ImageTool.h"
 
+#import "MUserManager.h"
+
 #import "MButton.h"
 #import "MLabel.h"
 #import "MImageView.h"

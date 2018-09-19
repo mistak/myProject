@@ -9,6 +9,8 @@
 #import "MLoginViewController.h"
 #import "MVerifyCodeLoginViewController.h"
 #import "MPassWordLoginViewController.h"
+#import "MLoginRootViewController.h"
+#import "MTabBarConfig.h"
 
 @interface MLoginViewController ()<
 WMPageControllerDelegate,
@@ -29,6 +31,7 @@ WMMenuViewDelegate>
     
     [self setUpView];
     [self setUpData];
+    [self addNotification];
 }
 
 - (void)setUpView
@@ -49,8 +52,26 @@ WMMenuViewDelegate>
     self.selectIndex = 0;
 }
 
-- (void)viewDidLayoutSubviews {
-    [super viewDidLayoutSubviews];
+#pragma mark - Notification
+- (void)addNotification
+{
+    ADD_OBSERVER(MNotification_login, self, loginNotification, nil);
+}
+
+- (void)loginNotification
+{
+    UIWindow * oldWindow = KEY_WINDOW;
+    if ([oldWindow.rootViewController isKindOfClass:[MLoginRootViewController class]])
+    {
+        UIWindow * newWindow = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+        MTabBarConfig * config = [[MTabBarConfig alloc] init];
+        newWindow.rootViewController = config.tabBarViewController;
+        [newWindow makeKeyAndVisible];
+        APP_DELEGATE.window = newWindow;
+        oldWindow = nil;
+        
+        return;
+    }
     
 }
 

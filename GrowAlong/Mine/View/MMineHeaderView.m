@@ -148,4 +148,14 @@
     
 }
 
+#pragma mark - public
+
+- (void)setData:(MUserInfoModel *)userInfo
+{
+    [self.iconView setImageURL:[NSURL URLWithString:userInfo.headImgUrl]];
+    
+    self.nameLabel.text = userInfo.name;
+    
+}
+
 @end

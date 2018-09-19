@@ -11,11 +11,13 @@
 
 #import "MInputContentView.h"
 
+#import "MLoginApi.h"
+
 @interface MPassWordLoginViewController ()
 
 @property(nonatomic, strong) MInputContentView *phoneInputView;
 
-@property(nonatomic, strong) MInputContentView *verifyInputView;
+@property(nonatomic, strong) MInputContentView *passwordInputView;
 
 @property(nonatomic, strong) MButton *loginButton;
 
@@ -37,12 +39,13 @@
     [self.phoneInputView setInputType:MInputViewTypePhone];
     [self.view addSubview:self.phoneInputView];
     
-    self.verifyInputView = [[MInputContentView alloc] init];
-    [self.verifyInputView setInputType:MInputViewTypePassWord];
-    [self.view addSubview:self.verifyInputView];
+    self.passwordInputView = [[MInputContentView alloc] init];
+    [self.passwordInputView setInputType:MInputViewTypePassWord];
+    [self.view addSubview:self.passwordInputView];
     
     self.loginButton = [MViewGenerater buttonWithTitle:@"登录" titleColor:HexColor(0xffffff) backgroundColor:MThemecolor fontSize:17];
     [self.view addSubview:self.loginButton];
+    [self.loginButton addTarget:self action:@selector(handleLoginEvent:) forControlEvents:UIControlEventTouchUpInside];
     
     self.forgetButton = [MViewGenerater buttonWithTitle:@"忘记密码？" titleColor:MThemecolor backgroundColor:nil fontSize:13];
     [self.view addSubview:self.forgetButton];
@@ -56,12 +59,12 @@
     CGFloat margin = 30;
     CGFloat leftMargin = 25;
     self.phoneInputView.frame = CGRectMake(0, margin, self.view.width, [MInputContentView heightForType:MInputViewTypePhone]);
-    self.verifyInputView.frame = CGRectMake(0, self.phoneInputView.bottom + margin, self.view.width, [MInputContentView heightForType:MInputViewTypeVerifyCode]);
+    self.passwordInputView.frame = CGRectMake(0, self.phoneInputView.bottom + margin, self.view.width, [MInputContentView heightForType:MInputViewTypeVerifyCode]);
     
     self.loginButton.left = leftMargin;
     self.loginButton.width = self.view.width - leftMargin*2;
     self.loginButton.height = 40;
-    self.loginButton.top = self.verifyInputView.bottom + margin;
+    self.loginButton.top = self.passwordInputView.bottom + margin;
     self.loginButton.layer.cornerRadius = 20;
     
     self.forgetButton.size = CGSizeMake(100, 40);
@@ -74,7 +77,17 @@
 
 - (void)handleLoginEvent:(id)sender
 {
-    
+    MLoginApi * loginApi = [[MLoginApi alloc] initWithMobile:self.phoneInputView.textField.text passWord:self.passwordInputView.textField.text type:@"c"];
+    [loginApi startWithCompletionBlockWithSuccess:^(__kindof MBaseRequest *request) {
+       
+        MUserInfoModel * info = [request parse];
+
+        [[MUserManager sharedInstance] loginWithUserInfo:info];
+        
+    } failure:^(__kindof MBaseRequest *request) {
+        
+        NSLog(@"%@",request.error.description);
+    }];
 }
 
 

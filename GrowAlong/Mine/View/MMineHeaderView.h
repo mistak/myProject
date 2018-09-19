@@ -10,4 +10,6 @@
 
 @interface MMineHeaderView : MView
 
+- (void)setData:(MUserInfoModel *)userInfo;
+
 @end

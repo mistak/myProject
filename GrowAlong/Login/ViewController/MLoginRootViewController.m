@@ -8,7 +8,6 @@
 
 #import "MLoginRootViewController.h"
 #import "MLoginViewController.h"
-#import "MChinaProvinceApi.h"
 
 @interface MLoginRootViewController ()
 
@@ -60,15 +59,7 @@
     self.registButton.layer.cornerRadius = buttonHeight/2;
     self.loginButton.layer.cornerRadius = buttonHeight/2;
     
-    MChinaProvinceApi * provinceApi = [[MChinaProvinceApi alloc] init];
-    [provinceApi startWithCompletionBlockWithSuccess:^(__kindof MBaseRequest *request) {
-       
-        NSLog(@"%@",request.parse);
-        
-    } failure:^(__kindof MBaseRequest *request) {
-        
-        NSLog(@"%@",request.error.description);
-    }];
+
 }
 
 

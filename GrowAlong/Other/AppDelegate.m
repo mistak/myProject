@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+
 #import "MTabBarConfig.h"
 #import "MLoginRootViewController.h"
 
@@ -24,8 +25,16 @@
     [[UINavigationBar appearance] setTintColor:UIColorBlack];
 
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    MTabBarConfig * config = [[MTabBarConfig alloc] init];
-    self.window.rootViewController =  config.tabBarViewController;
+    
+    if ([[MUserManager sharedInstance] userInfo])
+    {
+        MTabBarConfig * config = [[MTabBarConfig alloc] init];
+        self.window.rootViewController =  config.tabBarViewController;
+    }
+    else
+    {
+        self.window.rootViewController = [[MNavigationViewController alloc] initWithRootViewController:[[MLoginRootViewController alloc] init]];
+    }
     
     [self.window makeKeyAndVisible];
     

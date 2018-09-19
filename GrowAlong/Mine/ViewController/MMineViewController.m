@@ -55,6 +55,8 @@
 
 - (void)setUpData
 {
+    [self.headerView setData:[[MUserManager sharedInstance] userInfo]];
+    
     MMineItem * studyItem = [[MMineItem alloc] initWithType:MMineCellTypeStudy];
     MMineItem * downloadItem = [[MMineItem alloc] initWithType:MMineCellTypeDownload];
     MMineItem * collectionItem = [[MMineItem alloc] initWithType:MMineCellTypeCollection];

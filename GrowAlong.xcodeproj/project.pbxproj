@@ -10,7 +10,6 @@
 		0AF9C7E82150F37400480951 /* QLClientInfoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF9C7E12150F37400480951 /* QLClientInfoManager.m */; };
 		0AF9C7E92150F37400480951 /* MBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF9C7E32150F37400480951 /* MBaseRequest.m */; };
 		0AF9C7EA2150F37400480951 /* MParameterGenerater.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF9C7E62150F37400480951 /* MParameterGenerater.m */; };
-		0AF9C7F02150F39B00480951 /* MChinaProvinceApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF9C7EE2150F39B00480951 /* MChinaProvinceApi.m */; };
 		0AF9C7F12150F39B00480951 /* MLoginApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF9C7EF2150F39B00480951 /* MLoginApi.m */; };
 		0AF9C7F82150F3EE00480951 /* MCourseLearningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF9C7F42150F3ED00480951 /* MCourseLearningViewController.m */; };
 		0AF9C7F92150F3EE00480951 /* MCourseLearnedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF9C7F52150F3ED00480951 /* MCourseLearnedViewController.m */; };
@@ -42,6 +41,14 @@
 		2DFCDE8521228BED00AE9610 /* MLoopItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFCDE8421228BED00AE9610 /* MLoopItem.m */; };
 		2DFCDE88212AFE9C00AE9610 /* MMineHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFCDE87212AFE9C00AE9610 /* MMineHeaderView.m */; };
 		2DFCDE8B212B087E00AE9610 /* MBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFCDE8A212B087E00AE9610 /* MBaseTableViewCell.m */; };
+		4047138021526FD000FFBA9E /* MUserInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4047137F21526FD000FFBA9E /* MUserInfoModel.m */; };
+		40471384215274F100FFBA9E /* MUserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 40471383215274F100FFBA9E /* MUserManager.m */; };
+		40471388215276B300FFBA9E /* MFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 40471387215276B300FFBA9E /* MFileManager.m */; };
+		4047138C2152890200FFBA9E /* MPageRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4047138B2152890200FFBA9E /* MPageRequest.m */; };
+		4047138F215289F000FFBA9E /* MCourseContentApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 4047138E215289F000FFBA9E /* MCourseContentApi.m */; };
+		4047139321528AAD00FFBA9E /* MCourseContentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4047139221528AAD00FFBA9E /* MCourseContentModel.m */; };
+		4047139621528C5200FFBA9E /* MCourseListApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 4047139521528C5200FFBA9E /* MCourseListApi.m */; };
+		4047139921528CC200FFBA9E /* MCourseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4047139821528CC200FFBA9E /* MCourseModel.m */; };
 		406188762152663C00F88111 /* TCLiveConfigInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 406187E72152663C00F88111 /* TCLiveConfigInfo.m */; };
 		406188772152663C00F88111 /* TCLiveChatTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 406187E82152663C00F88111 /* TCLiveChatTableView.m */; };
 		406188782152663C00F88111 /* TCLiveChatTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 406187EA2152663C00F88111 /* TCLiveChatTableViewCell.m */; };
@@ -224,9 +231,7 @@
 		0AF9C7E42150F37400480951 /* MBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBaseRequest.h; sourceTree = "<group>"; };
 		0AF9C7E62150F37400480951 /* MParameterGenerater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MParameterGenerater.m; sourceTree = "<group>"; };
 		0AF9C7E72150F37400480951 /* MParameterGenerater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MParameterGenerater.h; sourceTree = "<group>"; };
-		0AF9C7EC2150F39B00480951 /* MChinaProvinceApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MChinaProvinceApi.h; sourceTree = "<group>"; };
 		0AF9C7ED2150F39B00480951 /* MLoginApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLoginApi.h; sourceTree = "<group>"; };
-		0AF9C7EE2150F39B00480951 /* MChinaProvinceApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MChinaProvinceApi.m; sourceTree = "<group>"; };
 		0AF9C7EF2150F39B00480951 /* MLoginApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLoginApi.m; sourceTree = "<group>"; };
 		0AF9C7F22150F3ED00480951 /* MCourseLearnedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCourseLearnedViewController.h; sourceTree = "<group>"; };
 		0AF9C7F32150F3ED00480951 /* MMessageCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMessageCenterViewController.h; sourceTree = "<group>"; };
@@ -288,6 +293,22 @@
 		2DFCDE87212AFE9C00AE9610 /* MMineHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMineHeaderView.m; sourceTree = "<group>"; };
 		2DFCDE89212B087E00AE9610 /* MBaseTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBaseTableViewCell.h; sourceTree = "<group>"; };
 		2DFCDE8A212B087E00AE9610 /* MBaseTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBaseTableViewCell.m; sourceTree = "<group>"; };
+		4047137E21526FD000FFBA9E /* MUserInfoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MUserInfoModel.h; sourceTree = "<group>"; };
+		4047137F21526FD000FFBA9E /* MUserInfoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MUserInfoModel.m; sourceTree = "<group>"; };
+		40471382215274F100FFBA9E /* MUserManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MUserManager.h; sourceTree = "<group>"; };
+		40471383215274F100FFBA9E /* MUserManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MUserManager.m; sourceTree = "<group>"; };
+		40471386215276B300FFBA9E /* MFileManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFileManager.h; sourceTree = "<group>"; };
+		40471387215276B300FFBA9E /* MFileManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MFileManager.m; sourceTree = "<group>"; };
+		4047138A2152890200FFBA9E /* MPageRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPageRequest.h; sourceTree = "<group>"; };
+		4047138B2152890200FFBA9E /* MPageRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPageRequest.m; sourceTree = "<group>"; };
+		4047138D215289F000FFBA9E /* MCourseContentApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCourseContentApi.h; sourceTree = "<group>"; };
+		4047138E215289F000FFBA9E /* MCourseContentApi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCourseContentApi.m; sourceTree = "<group>"; };
+		4047139121528AAD00FFBA9E /* MCourseContentModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCourseContentModel.h; sourceTree = "<group>"; };
+		4047139221528AAD00FFBA9E /* MCourseContentModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCourseContentModel.m; sourceTree = "<group>"; };
+		4047139421528C5200FFBA9E /* MCourseListApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCourseListApi.h; sourceTree = "<group>"; };
+		4047139521528C5200FFBA9E /* MCourseListApi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCourseListApi.m; sourceTree = "<group>"; };
+		4047139721528CC200FFBA9E /* MCourseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCourseModel.h; sourceTree = "<group>"; };
+		4047139821528CC200FFBA9E /* MCourseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCourseModel.m; sourceTree = "<group>"; };
 		406187E72152663C00F88111 /* TCLiveConfigInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCLiveConfigInfo.m; sourceTree = "<group>"; };
 		406187E82152663C00F88111 /* TCLiveChatTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCLiveChatTableView.m; sourceTree = "<group>"; };
 		406187E92152663C00F88111 /* TCLiveVideoLayoutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCLiveVideoLayoutView.h; sourceTree = "<group>"; };
@@ -570,6 +591,8 @@
 			children = (
 				0AF9C7E32150F37400480951 /* MBaseRequest.m */,
 				0AF9C7E42150F37400480951 /* MBaseRequest.h */,
+				4047138A2152890200FFBA9E /* MPageRequest.h */,
+				4047138B2152890200FFBA9E /* MPageRequest.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -586,9 +609,7 @@
 		0AF9C7EB2150F39B00480951 /* Api */ = {
 			isa = PBXGroup;
 			children = (
-				0AF9C7EC2150F39B00480951 /* MChinaProvinceApi.h */,
 				0AF9C7ED2150F39B00480951 /* MLoginApi.h */,
-				0AF9C7EE2150F39B00480951 /* MChinaProvinceApi.m */,
 				0AF9C7EF2150F39B00480951 /* MLoginApi.m */,
 			);
 			path = Api;
@@ -696,6 +717,55 @@
 				2DFCDE8421228BED00AE9610 /* MLoopItem.m */,
 			);
 			path = Timer;
+			sourceTree = "<group>";
+		};
+		4047137D21526FBB00FFBA9E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4047137E21526FD000FFBA9E /* MUserInfoModel.h */,
+				4047137F21526FD000FFBA9E /* MUserInfoModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		40471381215274DF00FFBA9E /* User */ = {
+			isa = PBXGroup;
+			children = (
+				40471382215274F100FFBA9E /* MUserManager.h */,
+				40471383215274F100FFBA9E /* MUserManager.m */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		404713852152768400FFBA9E /* FileManager */ = {
+			isa = PBXGroup;
+			children = (
+				40471386215276B300FFBA9E /* MFileManager.h */,
+				40471387215276B300FFBA9E /* MFileManager.m */,
+			);
+			path = FileManager;
+			sourceTree = "<group>";
+		};
+		40471389215288CD00FFBA9E /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				4047138D215289F000FFBA9E /* MCourseContentApi.h */,
+				4047138E215289F000FFBA9E /* MCourseContentApi.m */,
+				4047139421528C5200FFBA9E /* MCourseListApi.h */,
+				4047139521528C5200FFBA9E /* MCourseListApi.m */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		4047139021528A8800FFBA9E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4047139121528AAD00FFBA9E /* MCourseContentModel.h */,
+				4047139221528AAD00FFBA9E /* MCourseContentModel.m */,
+				4047139721528CC200FFBA9E /* MCourseModel.h */,
+				4047139821528CC200FFBA9E /* MCourseModel.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		406187E52152663C00F88111 /* SDK */ = {
@@ -1093,13 +1163,6 @@
 			path = ViewController;
 			sourceTree = "<group>";
 		};
-		D81A0A922119A28000D602F0 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 		D81A0A932119A28000D602F0 /* Other */ = {
 			isa = PBXGroup;
 			children = (
@@ -1180,6 +1243,7 @@
 		D81A3EA92118330C004C495B /* GrowAlong */ = {
 			isa = PBXGroup;
 			children = (
+				40471381215274DF00FFBA9E /* User */,
 				406187E52152663C00F88111 /* SDK */,
 				0AF9C7DF2150F37400480951 /* Network */,
 				D8E6EAA321192E48001B7919 /* Home */,
@@ -1258,6 +1322,7 @@
 		D8E6EAA121192E23001B7919 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				404713852152768400FFBA9E /* FileManager */,
 				407DCFE92150F06600C5CFAB /* Message */,
 				2DFCDE7F2122871400AE9610 /* Timer */,
 				2DFCDE71211EE85E00AE9610 /* Const */,
@@ -1271,6 +1336,7 @@
 		D8E6EAA221192E2F001B7919 /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				4047137D21526FBB00FFBA9E /* Model */,
 				0AF9C7EB2150F39B00480951 /* Api */,
 				2D4439BA211EC0D200BAA6FF /* Const */,
 				2D4CFC41211BD97000ED8CB8 /* View */,
@@ -1304,8 +1370,9 @@
 		D8E6EAA521193000001B7919 /* Course */ = {
 			isa = PBXGroup;
 			children = (
+				4047139021528A8800FFBA9E /* Model */,
+				40471389215288CD00FFBA9E /* Api */,
 				D81A0A942119A28000D602F0 /* Const */,
-				D81A0A922119A28000D602F0 /* Model */,
 				D81A0A932119A28000D602F0 /* Other */,
 				D81A0A902119A27F00D602F0 /* View */,
 				D81A0A912119A28000D602F0 /* ViewController */,
@@ -1681,6 +1748,7 @@
 				2DFCDE5A211EC59D00AE9610 /* MLoginRootViewController.m in Sources */,
 				2D55DEB7212CBD380059523F /* MMineTableViewCell.m in Sources */,
 				4061887D2152663C00F88111 /* TCLiveRoomViewController.m in Sources */,
+				4047139621528C5200FFBA9E /* MCourseListApi.m in Sources */,
 				2DA562A7211B412F0009495E /* MView.m in Sources */,
 				2D4CFC44211BDA1500ED8CB8 /* MInputContentView.m in Sources */,
 				D8E6EACF21197BA8001B7919 /* MNavigationViewController.m in Sources */,
@@ -1691,6 +1759,7 @@
 				D8E6EAC3211943BA001B7919 /* MLabel.m in Sources */,
 				D81A0A9F2119A2DA00D602F0 /* MCommunicateViewController.m in Sources */,
 				D8E6EAB021193A14001B7919 /* StringTool.m in Sources */,
+				4047139921528CC200FFBA9E /* MCourseModel.m in Sources */,
 				2DA562AA211B47000009495E /* MVerifyCodeLoginViewController.m in Sources */,
 				2DFCDE8B212B087E00AE9610 /* MBaseTableViewCell.m in Sources */,
 				D81A0AA22119A31800D602F0 /* MMineViewController.m in Sources */,
@@ -1704,7 +1773,6 @@
 				407DCFEC2150F08800C5CFAB /* MMesageManager.m in Sources */,
 				407DCFE12150E62A00C5CFAB /* MCommunicateListTableViewCell.m in Sources */,
 				D8E6EAC0211943AC001B7919 /* MButton.m in Sources */,
-				0AF9C7F02150F39B00480951 /* MChinaProvinceApi.m in Sources */,
 				406188782152663C00F88111 /* TCLiveChatTableViewCell.m in Sources */,
 				2DFCDE822122872E00AE9610 /* MTimerLoopManager.m in Sources */,
 				2D4439B9211EBB7500BAA6FF /* ColorTool.m in Sources */,
@@ -1720,18 +1788,24 @@
 				2DFCDE74211EE87400AE9610 /* MCommomConst.m in Sources */,
 				2DFCDE7D212130B100AE9610 /* MFindPassWordVerifyCodeViewController.m in Sources */,
 				2DFCDE6F211ED01600AE9610 /* WMMenuView.m in Sources */,
+				4047138C2152890200FFBA9E /* MPageRequest.m in Sources */,
+				40471384215274F100FFBA9E /* MUserManager.m in Sources */,
 				0AF9C7E92150F37400480951 /* MBaseRequest.m in Sources */,
 				0AF9C7F92150F3EE00480951 /* MCourseLearnedViewController.m in Sources */,
+				4047139321528AAD00FFBA9E /* MCourseContentModel.m in Sources */,
 				406188762152663C00F88111 /* TCLiveConfigInfo.m in Sources */,
 				0AF9C7F12150F39B00480951 /* MLoginApi.m in Sources */,
 				4061887B2152663C00F88111 /* UIToastView.m in Sources */,
 				2DFCDE6E211ED01600AE9610 /* WMScrollView.m in Sources */,
 				406188792152663C00F88111 /* TCLiveVideoControlBar.m in Sources */,
+				40471388215276B300FFBA9E /* MFileManager.m in Sources */,
 				2DA562A1211B403D0009495E /* MImageView.m in Sources */,
 				D81A3EBA2118330D004C495B /* main.m in Sources */,
 				D8E6EABB21193FD2001B7919 /* FontTool.m in Sources */,
 				D81A0A842119A24F00D602F0 /* MViewController.m in Sources */,
+				4047138F215289F000FFBA9E /* MCourseContentApi.m in Sources */,
 				2DFCDE8521228BED00AE9610 /* MLoopItem.m in Sources */,
+				4047138021526FD000FFBA9E /* MUserInfoModel.m in Sources */,
 				D81A3EAC2118330C004C495B /* AppDelegate.m in Sources */,
 				2DFCDE6D211ED01600AE9610 /* WMMenuItem.m in Sources */,
 				406188772152663C00F88111 /* TCLiveChatTableView.m in Sources */,

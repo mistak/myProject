@@ -11,8 +11,16 @@
 #ifndef MCommomConst_h
 #define MCommomConst_h
 
-FOUNDATION_EXPORT NSString *const kGlobalAppVersion;
+extern NSString *const kGlobalAppVersion;
 
 extern NSString *const MCommon_back;
+
+
+#pragma mark - 通知
+
+//  登录
+extern NSString *const MNotification_login;
+
+
 
 #endif

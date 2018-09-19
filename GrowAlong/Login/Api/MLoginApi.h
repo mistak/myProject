@@ -8,7 +8,13 @@
 
 #import "MBaseRequest.h"
 
+#import "MUserInfoModel.h"
+
 @interface MLoginApi : MBaseRequest
 
+//  type c： C端， b： B端
+- (instancetype)initWithMobile:(NSString *)mobile
+                      passWord:(NSString *)password
+                          type:(NSString *)type;
 
 @end

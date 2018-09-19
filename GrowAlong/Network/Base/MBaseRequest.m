@@ -10,6 +10,8 @@
 #import <YTKNetwork/YTKNetwork.h>
 #import <YYKit/NSObject+YYModel.h>
 
+#import "QLClientInfoManager.h"
+
 @interface MBaseRequest ()
 
 @property (nonatomic, strong, readwrite) NSError *error;
@@ -238,7 +240,7 @@ static NSUInteger errorLogCount;
 //        DEFAULTS.g_ApiVersion == ApiVersionTypeABTest) {
 //        privateKey = @"11fc842697eb4f5561c05f6cec82536b";
 //    }else {
-//        privateKey = @"846d2cb0c7f09c3ae802c42169a6302b";
+        privateKey = @"846d2cb0c7f09c3ae582c421696d308c";
 //    }
 //
     int64_t timestamp = [[NSDate date] timeIntervalSince1970] * 1000;
@@ -254,24 +256,24 @@ static NSUInteger errorLogCount;
 //        endParas[@"user"] = @{@"sid" : sid, @"userId" : userId};
 //    }
 //
-//    NSDictionary *client = [QLClientInfoManager clientInfo];`
-//
-//    if (client) {
-//        endParas[@"client"] = client;
-//    }
-//    if (dataNew) {
-//        endParas[@"data"] = dataNew;
-//    }
-//    if (requestID) {
-//        endParas[@"id"] = requestID;
-//    }
-//    if (sign) {
-//        endParas[@"sign"] = sign;
-//    }
-//    if (timestampString) {
-//        endParas[@"timestamp"] = timestampString;
-//    }
-//
+    NSDictionary *client = [QLClientInfoManager clientInfo];
+
+    if (client) {
+        endParas[@"client"] = client;
+    }
+    if (dataNew) {
+        endParas[@"data"] = dataNew;
+    }
+    if (requestID) {
+        endParas[@"id"] = requestID;
+    }
+    if (sign) {
+        endParas[@"sign"] = sign;
+    }
+    if (timestampString) {
+        endParas[@"timestamp"] = timestampString;
+    }
+
     return endParas;
 }
 

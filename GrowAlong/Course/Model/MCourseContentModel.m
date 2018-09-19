@@ -18,7 +18,7 @@
 {
     _type = type;
     
-    _courseType = MCourseTypeFile;
+    _courseType = MCourseContentTypeFile;
 }
 
 @end

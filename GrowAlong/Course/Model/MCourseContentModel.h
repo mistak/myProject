@@ -26,6 +26,6 @@ typedef NS_ENUM(NSUInteger, MCourseContentType) {
 
 @property (nonatomic, copy) NSString *content;
 
-@property (nonatomic, assign) MCourseType courseType;
+@property (nonatomic, assign) MCourseContentType courseType;
 
 @end
